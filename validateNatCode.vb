@@ -1,5 +1,5 @@
  Function IsValidNationalCode(ByVal nationalCode As String) As Boolean
-        If nationalCode = String.Empty Then Return True
+ If nationalCode = String.Empty Then Return True --Or Flase if need
 
         Dim regex = New System.Text.RegularExpressions.Regex("\d{10}")
 
